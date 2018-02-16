@@ -5,10 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "configure": "node-gyp configure",
-    "build": "sh fix.sh && node-gyp build",
+    "build": "node-gyp build",
     "test": "make test",
     "preinstall": "node util/configure",
-    "install": "node-gyp rebuild"
+    "install": "sh fix.sh && node-gyp rebuild"
   },
   "keywords": [
     "kafka",
