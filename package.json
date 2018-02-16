@@ -7,8 +7,8 @@
     "configure": "node-gyp configure",
     "build": "node-gyp build",
     "test": "make test",
-    "preinstall": "sh fix.sh && node util/configure",
-    "install": "node-gyp rebuild"
+    "preinstall": "node util/configure",
+    "install": "sh fix.sh && node-gyp rebuild"
   },
   "keywords": [
     "kafka",
