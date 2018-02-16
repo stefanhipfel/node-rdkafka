@@ -311,7 +311,6 @@
               'librdkafka/src/rdkafka_msgset_reader.c',
               'librdkafka/src/rdvarint.c',
               'librdkafka/src/rdbuf.c',
-              'librdkafka/src/rdunittest.c',
 
               # SRC Y
               'librdkafka/src/rdkafka_lz4.c',
